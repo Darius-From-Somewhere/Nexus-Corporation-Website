@@ -1,3 +1,6 @@
+
+/* Global */
+
 * {
     margin: 0px;
 
@@ -11,15 +14,6 @@
     
 }
 
-body {background-image: radial-gradient(circle at center , blue , black);}
-
-
-
-.sitelogo img {
-    width: 5cm;
-
-    margin-bottom: 20px;
-}
 
 /* Navigation Interactions */
 
@@ -87,14 +81,6 @@ nav a:visited {
      text-decoration: none;
 }
 
-
-
-a {
-    color: deepskyblue;
-
-    transition: font-size 0.5s ease-out;
-}
-
 a:hover {
     text-decoration: none;
 
@@ -104,7 +90,22 @@ a:hover {
 }
 
 
-/* The Writing */
+/* Body Styles (Headers, Nav and Paragraphs */
+
+
+body {background-image: radial-gradient(circle at center , blue , black);}
+
+a {
+    color: deepskyblue;
+
+    transition: font-size 0.5s ease-out;
+}
+
+.sitelogo img {
+    width: 5cm;
+
+    margin-bottom: 20px;
+}
 
 
 header {
@@ -147,11 +148,6 @@ footer nav {
     margin: 0px 0px 0px;
 }
 
-.rounded {
-    margin: 10px 0px 15px;
-
-    border-radius: 100px;
-}
 
 p {
     color: skyblue;
@@ -183,6 +179,12 @@ footer {
 }
 
 /* Styles */
+
+.rounded {
+    margin: 10px 0px 15px;
+
+    border-radius: 100px;
+}
 
 
 .inthispage {
