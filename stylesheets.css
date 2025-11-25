@@ -95,19 +95,12 @@ a:hover {
 
 body {background-image: radial-gradient(circle at center , blue , black);}
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 68a6beea83bb12810db462706b7e9519c8d92a50
 a {
     color: deepskyblue;
 
     transition: font-size 0.5s ease-out;
-<<<<<<< HEAD
 
-    
-=======
->>>>>>> 68a6beea83bb12810db462706b7e9519c8d92a50
 }
 
 .sitelogo img {
